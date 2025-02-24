@@ -104,7 +104,7 @@ POST /api/jobs/: Create a new job posting
 👥 Contributors
 Contributions are welcome! Meet our amazing team:
 
-Frontend Developers: Roba Chimdesa, Bontu Dereje, Nugusa Wakweya
+Frontend Developers: Roba Chimdesa, Bontu Dereje, Nugusa Wakwaya
 Backend Developers: Darara Tesfaye, Milkesa Kasaye
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
