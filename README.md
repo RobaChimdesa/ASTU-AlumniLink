@@ -54,15 +54,58 @@
 ```plaintext  
 ASTUALUMNILINK/  
 ├── frontend/          # Frontend codebase  
-│   ├── src/          # Source files for the React application          
+│   ├── src/          # Source files for the React application  
 │   └── public/       # Public assets  
 └── backend/          # Backend codebase  
     ├── app/          # Main application files  
-    └── config/       # Configuration files and settings
+    └── config/       # Configuration files and settings  
+📥 Installation Guide
+To set up the project locally, follow these steps:
 
+Clone the repository:
 
+bash
+git clone https://github.com/yourusername/ASTUALUMNILINK.git  
+cd ASTUALUMNILINK  
+Setup the Frontend:
+
+bash
+cd frontend  
+npm install  
+Setup the Backend:
+
+bash
+cd backend  
+pip install -r requirements.txt  
+Configure your database settings in backend/app/settings.py.
+
+Run Database Migrations:
+
+bash
+python manage.py migrate  
+▶️ Running the Project
+Start the Backend Server:
+
+bash
+cd backend  
+python manage.py runserver  
+Start the Frontend Application:
+
+bash
+cd frontend  
+npm start  
+📡 API Endpoints
+Here are some key API endpoints:
+
+GET /api/users/: Retrieve all users
+POST /api/users/login/: User login
+GET /api/jobs/: List job postings
+POST /api/jobs/: Create a new job posting
 👥 Contributors
 Contributions are welcome! Meet our amazing team:
 
 Frontend Developers: Roba Chimdesa, Bontu Dereje, Nugusa Wakweya
 Backend Developers: Darara Tesfaye, Milkesa Kasaye
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
